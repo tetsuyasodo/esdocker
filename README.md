@@ -19,3 +19,6 @@ In WSL2 environment, you can deploy 3 docker containers which will run a custom 
 # docker run -it -d --network elasticstack -p 9201:9200 -p 5602:5601 --hostname es02 --name es02 --privileged escluster /sbin/init
 # docker run -it -d --network elasticstack -p 9202:9200 -p 5603:5601 --hostname es03 --name es03 --privileged escluster /sbin/init
 ```
+
+## reference
+https://qiita.com/tetsuyasodo/items/8d37a25809f0e72a570f
