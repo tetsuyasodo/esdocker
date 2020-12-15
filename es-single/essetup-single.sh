@@ -27,5 +27,3 @@ EOF
 systemctl daemon-reload
 systemctl start elasticsearch
 systemctl start kibana
-
-exec "$@"
